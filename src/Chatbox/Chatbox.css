@@ -1,0 +1,53 @@
+/* src/components/ChatBox.css */
+.container {
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4a4a4a;
+}
+
+.chat-box {
+    background-color: #ffffff;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.py-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #e2e2e2;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.message-user {
+    color: #007bff;
+}
+
+.message-ai {
+    color: #28a745;
+}
